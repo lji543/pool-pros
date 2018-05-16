@@ -7,6 +7,32 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  // const menuItems = [
+  //   'Pools & Spas',
+  //   'Supplies',
+  //   'Resources',
+  //   'Services'
+  // ]
+
+  const menuItems = [
+    {
+      text:'Pools & Spas',
+      link: '',
+    },
+    {
+      text:'Supplies',
+      link: '',
+    },
+    {
+      text:'Resources',
+      link: '',
+    },
+    {
+      text:'Services',
+      link: '',
+    },
+  ]
+
   constructor() { }
 
   ngOnInit() {

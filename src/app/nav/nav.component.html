@@ -1,3 +1,23 @@
-<p>
-  nav works!
-</p>
+<div class="sectors">
+  <div class="sectors-items">
+    <span class="sectors-items-link">Dealers and Distributors</span>
+    <span class="sectors-items-link">Commercial Service
+      <img class="img-sm margin-sm"
+       src="assets/images/action-commercial-icon.png">
+    </span>
+  </div>
+</div>
+
+<div class="nav">
+	<img class="nav-logo" src="assets/images/pool-pros-logo.png">
+  <div class="nav-menu">
+    <span class="nav-menu-items" *ngFor="let menuItem of menuItems">
+      {{menuItem.text}}
+    </span>
+    <a class="nav-menu-button">
+     <img class="img-sm"
+      src="assets/images/location-icon.png">
+     Find a Pool Pro
+   </a>
+  </div>
+</div>

@@ -1,0 +1,64 @@
+$blue-dark: #0e3f8a;
+$blue-light: #2870dc;
+$white: #ffffff;
+
+$font-sm: 12px;
+$font-med: 16px;
+
+.sectors {
+  background-color: $blue-dark;
+  color: $white;
+  font-size: $font-sm;
+
+  &-items {
+    margin: 0 24px;
+    display: flex;
+    justify-content: flex-end;
+
+    &-link {
+      margin: 12px 16px;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 56px;
+
+  &-logo {
+    max-height: 32px;
+    margin: 32px 0;
+  }
+
+  &-menu {
+    // display: inline-block;
+
+    &-items {
+      color: $blue-dark;
+      font-size: $font-med;
+      // display: inline;
+      margin-left: 12px;
+      vertical-align: middle;
+    }
+
+    &-button {
+      border: solid 1px $blue-light;
+      border-radius: 2px;
+      color: $blue-light;
+      font-size: $font-med;
+      margin-left: 12px;
+      padding: 8px;
+    }
+  }
+}
+
+.img-sm {
+  max-height: $font-sm;
+}
+.margin-sm {
+  margin: 0 8px;
+}

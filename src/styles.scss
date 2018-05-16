@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+// TODO
+@font-face {
+  font-family: "Open Sans";
+  src: url("/assets/fonts/OpenSans-Bold.ttf") format("ttf"),
+  	url("/assets/fonts/OpenSans-BoldItalic.ttf") format("ttf"),
+  	url("/assets/fonts/OpenSans-ExtraBold.ttf") format("ttf"),
+  	url("/assets/fonts/OpenSans-ExtraBoldItalic.ttf") format("ttf"),
+  	url("/assets/fonts/OpenSans-Italic.ttf") format("ttf"),
+  	url("/assets/fonts/OpenSans-Light.ttf") format("ttf"),
+  	url("/assets/fonts/OpenSans-LightItalic.ttf") format("ttf"),
+  	url("/assets/fonts/OpenSans-Regular.ttf") format("ttf"),
+  	url("/assets/fonts/OpenSans-Semibold.ttf") format("ttf"),
+  	url("/assets/fonts/OpenSans-SemiboldItalic.ttf") format("ttf");
+}
+
+// TODO
+$blue-dark: #0e3f8a;
+$blue-light: #2870dc;
+$white: #ffffff;
+
+body {
+	font-family: "Open Sans", Fallback, sans-serif;
+  margin: 0;
+}
+
+.vertical-spacers {
+  margin: 0 8px;
+}

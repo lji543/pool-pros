@@ -1,35 +1,40 @@
-/* Dark Blue: 0E3F8A*/
-/* Light Blue: 2870DC*/
+$blue-dark: #0e3f8a;
+$blue-light: #2870dc;
+$white: #ffffff;
 
-:root {
-	--dark-blue: #0e3f8a;
-	--light-blue: #2870dc;
-  --white: #ffffff;
-}
+$font-sm: 8px;
 
 .footer {
-	color: #FFFFFF;
-	font-family: "Open Sans", Fallback, sans-serif;
+	color: $white;
 	text-align: center;
 
 	&-connect {
-		font-weight: 500;
-
-		&-img {
-			max-height: 12px;
-		}
+		font-weight: 400;
 	}
 
 	&-logo {
-		padding-bottom: 12px;
+    max-height: 24px;
+		padding-bottom: 16px;
 	}
 
 	&-main {
-		background-color: #0e3f8a;
-		padding: 24px 0;
+		background-color: $blue-dark;
+		padding: 28px 0;
 	}
 
 	&-secondary {
-		background-color: #2870dc;
+		background-color: $blue-light;
+    font-size: $font-sm;
+    font-weight: 200;
+    padding: 12px 0;
 	}
+
+  &-social {
+    margin-left: 20px;
+
+    &-img {
+      margin: 0 8px;
+      max-height: 14px;
+    }
+  }
 }
