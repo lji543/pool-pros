@@ -1,0 +1,35 @@
+/* Dark Blue: 0E3F8A*/
+/* Light Blue: 2870DC*/
+
+:root {
+	--dark-blue: #0e3f8a;
+	--light-blue: #2870dc;
+  --white: #ffffff;
+}
+
+.footer {
+	color: #FFFFFF;
+	font-family: "Open Sans", Fallback, sans-serif;
+	text-align: center;
+
+	&-connect {
+		font-weight: 500;
+
+		&-img {
+			max-height: 12px;
+		}
+	}
+
+	&-logo {
+		padding-bottom: 12px;
+	}
+
+	&-main {
+		background-color: #0e3f8a;
+		padding: 24px 0;
+	}
+
+	&-secondary {
+		background-color: #2870dc;
+	}
+}
