@@ -35,13 +35,11 @@ $font-med: 16px;
   }
 
   &-menu {
-    // display: inline-block;
 
     &-items {
       color: $blue-dark;
       font-size: $font-med;
-      // display: inline;
-      margin-left: 12px;
+      margin-left: 28px;
       vertical-align: middle;
     }
 
@@ -50,7 +48,7 @@ $font-med: 16px;
       border-radius: 2px;
       color: $blue-light;
       font-size: $font-med;
-      margin-left: 12px;
+      margin-left: 40px;
       padding: 8px;
     }
   }
