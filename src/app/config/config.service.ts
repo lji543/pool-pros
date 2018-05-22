@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root',
 })
 export class ConfigService {
-  console.log('configService')
+  console.log('configService');
   // console.log('config.service dealers', this.DEALERS)
 
   // configUrl = 'assets/config.json';
